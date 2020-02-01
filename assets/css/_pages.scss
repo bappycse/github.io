@@ -1,0 +1,77 @@
+.home-wrapper,
+.category-wrapper,
+.event-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .content-area {
+        padding-right: 50px;
+    }
+}
+.heading-area {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 25px;
+    .heading-title {
+        font-size: 30px;
+        line-height: 39px;
+        font-weight: bold;
+        color: $carrot-orange;
+        font-family: $font-family-ibm-plex-serif;
+        margin-bottom: 0px;
+        text-transform: capitalize;
+
+        &::after {
+            content: " ";
+            border-bottom: 1px dashed $persian-green;
+            position: absolute;
+            width: 100%;
+            bottom: 5px;
+            margin-left: 10px;
+        }
+    }
+}
+// Home page style
+.home-wrapper {
+    .latest-post-area,
+    .more-from-area,
+    .spotlight-area,
+    .home-diy-easy-fun-area {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 60px !important;
+        .es-btn {
+            margin-top: 15px;
+        }
+    }
+    .latest-post-area {
+        padding-bottom: 0px;
+    }
+    .spotlight-area {
+        position: relative;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        background: transparent !important;
+        padding: 0;
+
+        .list-layout {
+            margin-bottom: 0px;
+        }
+
+        .spot-list-layout {
+            background: #edeeef;
+            padding: 20px 25px;
+        }
+    }
+}
+
+// Event page style
+.event-wrapper {
+    .content-area {
+        padding-bottom: 50px;
+    }
+}

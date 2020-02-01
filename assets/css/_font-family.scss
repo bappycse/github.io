@@ -1,0 +1,29 @@
+//default font
+//============
+$font-family-sans-serif:  'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, 'Times New Roman', Times, serif !default;
+$font-family-monospace:   Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+
+//default font end
+
+//import google font
+//==================
+$font-family-pt-sans:                'PT Sans', sans-serif;
+$font-family-encode-sans-expanded:   'Encode Sans Expanded', sans-serif;
+$font-family-ibm-plex-serif:         'IBM Plex Serif', serif;
+$font-family-libre-franklin:         'Libre Franklin', sans-serif;
+$font-family-playfair-display:       'Playfair Display', serif;
+$font-family-pt-sans-narrow:         'PT Sans Narrow', sans-serif;
+$body_font_family_cardo: 			 'Cardo', serif;
+$font_family_Quattrocento: 			 'Quattrocento Sans', serif;
+$font_family_DM_sans: 			     'DM Sans', sans-serif;;
+
+
+//base font
+//===========
+$font-family-base:        $font-family-pt-sans !default;
+
+
+//footer-font-family
+//==================
+$footer-font-family:$font-family-pt-sans;

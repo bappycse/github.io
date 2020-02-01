@@ -1,0 +1,175 @@
+//defaut colors
+//=============
+$brand-primary: #292929;
+/*BootStrap Variables Overwrite*/
+//Colors
+$gray-base: #000 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default; // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+
+$body-bg: #fff !default;
+$text-color: $gray-dark !default;
+$link-color: $brand-primary !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+//defaut colors end
+
+//content text color
+$dove-gray: #707070;
+
+//color list name
+//================
+$black: #000000;
+$black2: #040404;
+
+$white: #ffffff;
+$cornflower: #95D7E6;
+$shakespeare: #4BCCC9;
+
+$mine-shaft1: #292929;
+$mine-shaft2: #252525;
+$mine-shaft3: #272727;
+$mine-shaft4: #3D3C3C;
+
+$dusty-gray: #959595;
+
+$silver1: #CDCBCB;
+$silver2: #CCCCCC;
+
+$conifer: #BDD53C;
+$trinidad: #E83309;
+$tangerine: #F68A00;
+$brink-pink: #FF5E97;
+$ecstasy: #F58026;
+$tundora: #454444;
+$robin-egg-blue: #0ABAB5;
+$robin-egg-blue2: #00c6c5;
+$cerulean: #00AEEF;
+$carrot-orange: #F59323;
+$gallery: #EBEBEB;
+
+$porcelain1: #EDEEEF;
+$porcelain2: #F7F9F9;
+$nobel: #B7B7B7;
+$persian-green: #03A29D;
+$pomegranate: #F94319;
+$humming-bird: #D3EFF9;
+$silver-chalice: #A3A3A3;
+$sunglow: #FFD832;
+$silver-sand: #C1C2C2;
+$green: #80BE09;
+$yellow-green: #B7E068;
+$razzmatazz: #ED0973;
+$trinidad: #E83309;
+$porcelain: #F7F9F9;
+$pigeon: #A4BADC;
+
+//hover color
+$link-text-hover-color:$shakespeare;
+
+//common colors
+//=============
+$dotted-color: $ecstasy;
+
+//header-colors
+//=============
+$header-border-color1: $silver1;
+$header-border-color2: $conifer;
+$header-border-color3: $silver2;
+$header-top-menu-color: $carrot-orange;
+$header-main-menu-color: $persian-green;
+$header-main-menu-hover-color: $brink-pink;
+
+//footer-colors
+//=============
+$footer-top-bg-color: $shakespeare;
+$footer-area-bg-color: $cornflower;
+$footer-title-color: $white;
+$footer-menu-text-color: $mine-shaft1;
+$footer-site-info-color: $white;
+$footer-site-info-link-color:$mine-shaft1;
+$footer-message-bg: $white;
+
+
+//feature post colors
+//===================
+$fp-category-name-text-color: $white;
+$fp-title-text-color: $black2;
+$fp-sub-title-text-color: $humming-bird;
+
+//section title color
+//==================
+$section-title-color1: $trinidad;
+$section-title-color2: $tundora;
+
+//post card colors
+//================
+$post-card-category-name-color: $dusty-gray;
+
+//category section colors
+//=======================
+$category-section-title-color: $persian-green;
+$category-bg-color: $conifer;
+
+//learning connection colors
+//==========================
+$learning-section-title-color: $green;
+
+//diy-easy-section
+//================
+$diy-easy-section-title-color: $trinidad;
+$diy-easy-section-title-color2: $razzmatazz;
+
+//single page colors
+//==================
+$single-category-name-color: $mine-shaft1;
+$single-entry-title-color: $black2;
+$single-author-title-color: $dove-gray;
+$single-author-desc-color: $mine-shaft1;
+$single-author-title-icon-color: $yellow-green;
+$single-author-border-color: $silver-sand;
+
+//read-comment btn
+$read-comment-btn-bg: $sunglow;
+$read-comment-btn-color: $white;
+
+//sing-up-form-color
+$sign-up-form-heading-span-color: $carrot-orange;
+$sign-up-form-btn-bg-color: $carrot-orange;
+$sign-up-form-border-color: $carrot-orange;
+
+//sponsored colors
+$sponsored-bg-color: #f1f1f1;
+$sp-text-color: $pigeon;
+
+//pagination
+$heading-color: #0e8e9c;
+$pagination-border: #dddddd;
+$pagination-text-color: #747474;
+$pagination-bg-color: #4bccc9;
+
+//default button
+$btn-bg-color: $robin-egg-blue2;
+$btn-text-color: $white;
+$btn-border-color: $robin-egg-blue2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

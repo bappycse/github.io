@@ -1,0 +1,51 @@
+//add banner section
+//==================
+.hero-banner {
+	margin: auto;
+	text-align: center;
+}
+
+.add-banner {
+	margin: 55px auto;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.add-banner2 {
+	width: 100%;
+	margin: 55px auto;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/**
+*Advertise Responsive
+ */
+
+@media (min-width: 1320px) {
+
+	.container {
+		width: 1320px;
+
+		.add-banner2 {
+			width: 1250px;
+			margin: 55px auto;
+			height: 312px;
+		}
+	}
+
+}
+
+@media only screen and (min-width: 1330px) {
+	.add-banner {
+		width: 728px;
+		height: 90px;
+	}
+}

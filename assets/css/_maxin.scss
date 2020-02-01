@@ -1,0 +1,75 @@
+//font-size
+//@usage-@include font-size($size)
+@mixin font-size($size) {
+	font-size: ($size / $font-size-base) * 1em;
+}
+// Hovers
+// @usage - `@include hover`
+@mixin hover {
+	&:hover,
+	&:active,
+	&:focus { @content; }
+}
+
+// before and after
+// @usage - `@include pseudo`
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+	content: $content;
+	display: $display;
+	position: $pos;
+}
+
+// before and after
+// @usage - `@include pseudo`
+@mixin bottom-dotted{
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	border-bottom: 3px dotted $dotted-color;
+}
+
+@mixin home-title-dotted{
+	content: '';
+	border-bottom: 1px dotted $persian-green;
+	width: 100%;
+	background-color: transparent;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+
+
+
+// responsive mixin
+@mixin respond-to($media) {
+
+	@if $media == xs-screens {
+		@media only screen and (max-width: $tablet-screen - 1) {
+			@content;
+		}
+	} @else if $media == xs-medium-screens {
+		@media only screen and (min-width: $sm-medium-screen) and (max-width: $tablet-screen - 1) {
+			@content;
+		}
+	} @else if $media == tablet-screens {
+		@media only screen and (min-width: $tablet-screen) and (max-width: $medium-screen - 1) {
+			@content;
+		}
+	} @else if $media == medium-screens {
+		@media only screen and (min-width: $medium-screen) and (max-width: $large-screen - 1) {
+			@content;
+		}
+	}
+		/* not important */
+	@else if $media == wide-screens {
+		@media only screen and (min-width: $large-screen) {
+			@content;
+		}
+	}
+
+}
+

@@ -1,0 +1,153 @@
+//search-bar
+.directory-search-bar {
+	font-family: "PT Sans",sans-serif!important;
+	.header-search-form {
+		input[type=submit] {
+			background: #F48025 !important;
+		}
+	}
+
+	.add-listing {
+		justify-self: flex-end;
+		margin-left: auto;
+		background: #F48025 !important;
+		color: #fff;
+	}
+
+	.header-dropdown-title span i {
+		color: #F48025 !important;
+	}
+}
+
+//filter
+.wdp-listing-filter {
+	font-family: "PT Sans",sans-serif!important;
+	.wdp-listing-form {
+		input[type=submit] {
+			background: #F48025 !important;
+		}
+
+		.SumoSelect > .optWrapper.multiple > .options li.opt.selected span i {
+			background-color: #F48025 !important;
+		}
+	}
+
+
+}
+
+.wdp-listing-wrapper {
+	font-family: "PT Sans",sans-serif!important;
+	.wdp-listing-results {
+		font-family: $font-family-pt-sans !important;
+	}
+	.listing-title, .wdp-listing-primary-tax-terms, .wdp-listing-content, .wdp-listing-content p {
+		font-family: $font-family-pt-sans !important;
+	}
+
+	.listing-title {
+		font-weight: bold !important;
+	}
+
+	.sponsored {
+		background: $sponsored-bg-color !important;
+
+		&:hover {
+			background: darken($sponsored-bg-color, 15%) !important;
+		}
+
+		.sponsored-badge a {
+			text-transform: uppercase;
+			font-size: 11px;
+			color: #8A8A8A;
+			border: 1px solid #8A8A8A;
+			padding: 5px 10px;
+			border-radius: 7px;
+		}
+	}
+
+	.wdp-listing-item {
+		.wdp-listing-header a i {
+			background: #F48025 !important;
+		}
+
+		.wdp-listing-header {
+			width: 82%;
+		}
+
+	}
+
+	.wdp-listing-counter {
+		color: #F48025;
+	}
+
+}
+
+.wdp-single-listing {
+	.add-listing {
+		background: #F48025 !important;
+	}
+
+	.ever-container {
+		overflow: hidden;
+	}
+
+	.wdp-listing-title, .single-listing-section-title {
+		border-bottom: 1px solid #f59323;
+		font-weight: bold;
+		font-family: $font-family-pt-sans;
+	}
+
+	.single-listing-section-content {
+		font-family: $font-family-pt-sans;
+	}
+
+	.locations-list {
+		.location {
+			border-bottom: 1px solid #f59323 !important;
+		}
+	}
+
+	.wdp-listing-contact-number {
+		font-weight: normal;
+
+		span {
+			font-weight: bold;
+			color: #000 !important;
+		}
+	}
+}
+
+.wdp-listing-wrapper{
+	.wdp-no-result p{
+		color: #f48025;
+	}
+	.wdp-button{
+		background-color: #f48025;
+		border-color: #f48025;
+		color: #fff;
+
+		&:hover{
+			background-color: #f48025;
+			border-color: #f48025;
+			color: #fff;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wdp-single-main .wdp-listing-img-wrap img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	.wdp-single-listing {
+		display: flex;
+		flex-flow: column-reverse;
+
+		.wdp-single-map {
+			display: block;
+		}
+	}
+}
+

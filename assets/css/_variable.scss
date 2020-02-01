@@ -1,0 +1,26 @@
+$navbar-height: 40px;
+$navbar-margin-bottom: 0px;
+$navbar-border-radius: 0px;
+$grid-gutter-width: 30px !default;
+
+$large-screen: 1200px;
+$medium-screen: 992px;
+$tablet-screen: 768px;
+$sm-medium-screen: 500px;
+
+//Colors
+@import "colors";
+//Fonts
+@import "fonts";
+//Font-mamily
+@import "font-family";
+//Font-size
+@import "font-size";
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family: inherit !default;
+$headings-font-weight: 700 !default;
+$headings-line-height: 1.1 !default;
+$headings-color: inherit !default;
+
+/*FontAwesome Variables Overwrite*/

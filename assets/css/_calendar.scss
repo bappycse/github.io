@@ -1,0 +1,250 @@
+.tribe-events-pg-template {
+
+  .tribe-events-page-title {
+    margin-bottom: 50px;
+  }
+
+  .tribe-events-button {
+    background: $yellow-green !important;
+  }
+
+
+  .tribe-events-calendar {
+    thead {
+      th {
+        background-color: $yellow-green;
+        border: none;
+      }
+    }
+
+    td.tribe-events-present div[id*=tribe-events-daynum-] {
+      background-color: $yellow-green;
+
+      & > a {
+        background-color: transparent;
+      }
+    }
+
+  }
+
+  #tribe-events-header {
+    display: none;
+  }
+
+  #tribe-events-footer {
+    border-top: 1px solid $silver-sand;
+    border-bottom: 1px solid $silver-sand;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+  }
+
+
+}
+
+
+/* Single Event Page design */
+
+.event-single-wrapper {
+  padding: 40px 0;
+
+  .calendar-single-post-details {
+    font-family: $font-family-ibm-plex-serif;
+    padding: 0 15px 10px;
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    p.featured-img-caption {
+      font-size: 15px;
+      line-height: 18px;
+      font-family: $font_family_DM_sans;
+      text-align: right;
+    }
+
+    .event-category {
+      font-size: 20px;
+      line-height: 27px;
+      color: $persian-green;
+      text-transform: uppercase;
+
+      a {
+        color: $persian-green;
+        font-weight: 700;
+      }
+    }
+
+    .calendar-single-post-title {
+      margin: 27px 0 25px;
+      font-size: 38px;
+      line-height: 49px;
+      color: $black;
+      font-weight: 700;
+    }
+
+    .date-time-range-text {
+      color: $carrot-orange;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 700;
+      margin-bottom: 45px;
+    }
+
+    .event-social-share {
+      padding: 40px 0;
+      border-top: 1px dashed $persian-green;
+      border-bottom: 1px dashed $persian-green;
+
+      .social-media-share-area {
+        margin-bottom: 0;
+      }
+
+      .event-social-media-share-area {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .social-share {
+          .social-media-button {
+            a {
+              color: #000;
+              padding: 0 !important;
+              font-size: 28px;
+              margin: 0 25px 0 0;
+            }
+          }
+        }
+      }
+    }
+
+    .calender-map-ticket-info {
+      margin-top: 40px !important;
+      display: flex;
+
+      .map-direction-area {
+        margin-right: 97px;
+        a {
+          font-size: 18px;
+          height: 43px;
+          color: #fff;
+          text-transform: uppercase;
+          background: #03a29d;
+          padding: 10px 30px 0 30px;
+          display: inline-block;
+          font-family: "Quattrocento Sans", serif;
+          letter-spacing: .54px;
+        }
+
+        .basic-info-title {
+          margin-top: 20px;
+          font-size: 20px;
+          line-height: 38px;
+          letter-spacing: 1.6px;
+          font-family: $font-family-Quattrocento;
+        }
+
+        address {
+          font-size: 20px;
+          line-height: 38px;
+          font-family: $font-family-Quattrocento;
+
+          .location, .streetAddress, .addressLocality {
+
+          }
+        }
+      }
+
+      .buy-ticket-area {
+        a {
+          font-size: 18px;
+          height: 43px;
+          color: #fff;
+          text-transform: uppercase;
+          background: #03a29d;
+          padding: 10px 30px 0 30px;
+          display: inline-block;
+          font-family: "Quattrocento Sans", serif;
+          letter-spacing: .54px;
+        }
+
+        .basic-info-title {
+          margin-top: 20px;
+          font-size: 20px;
+          line-height: 38px;
+          letter-spacing: 1.6px;
+          font-family: "Quattrocento Sans", serif;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .calendar-additional-info {
+      margin-top: 0 !important;
+      .basic-info-title {
+        font-size: 20px;
+        line-height: 38px;
+        font-family: $font-family-Quattrocento;
+        letter-spacing: 1.6px;
+        font-weight: 700;
+        margin: 0 0 5px;
+		text-transform: uppercase;
+      }
+      ul li {
+        margin-bottom: 10px;
+        font-family: $font-family-Quattrocento;
+        text-transform: capitalize;
+        strong {
+          color: $carrot-orange;
+        }
+      }
+    }
+
+    .calendar-basic-info {
+      margin-top: 55px;
+      .basic-info-title {
+        font-size: 20px;
+        line-height: 38px;
+        font-family: $font-family-Quattrocento;
+        letter-spacing: 1.6px;
+        margin: 0 0 5px;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 18px;
+        line-height: 27px;
+        font-family: $font-family-Quattrocento;
+        margin-bottom: 25px;
+        br {
+          content: " ";
+          display: block !important;
+          margin-bottom: 20px !important;
+        }
+      }
+
+    }
+  }
+
+  .event-featured-description {
+    padding: 30px 15px 15px;
+    background: #E5E5E5;
+    font-family: $font-family-Quattrocento;
+    margin-bottom: 40px;
+    .basic-info-title {
+      font-size: 20px;
+      line-height: 38px;
+      color: #000;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      letter-spacing: 1.6px;
+    }
+    .featured-desc {
+      font-size: 18px;
+      line-height: 27px;
+      font-family: $font-family-Quattrocento;
+      letter-spacing: 1.6px;
+    }
+  }
+
+}

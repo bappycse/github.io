@@ -1,0 +1,128 @@
+/*
+|----------------------------------------------------------------------------
+| 13. Portfolio Style
+|----------------------------------------------------------------------------
+*/
+.printable-content {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+
+	.isotope-filters {
+		text-align: center;
+		margin-bottom: 50px;
+		button {
+			border: 0;
+			background: 0;
+			font-size: 16px;
+			line-height: 26px;
+			letter-spacing: 0.16px;
+			font-weight: 700;
+			padding: 0 15px 5px 15px;
+			position: relative;
+			text-transform: uppercase;
+			@include hover {
+				outline: none;
+			}
+			&:first-child,
+			&:first-child:after {
+				padding-left: 0;
+				left: 0;
+			}
+
+		}
+
+		button:after,
+		.active:after {
+			position: absolute;
+			bottom: 0;
+			left: 15px;
+			right: 15px;
+			content: "";
+			height: 2px;
+			background: #55a30f;
+			opacity: 0;
+			transition: all .55s ease;
+
+		}
+
+		button:hover:after,
+		button:hover,
+		.active:after,
+		.active {
+			color: #55a30f;
+			opacity: 1;
+		}
+	}
+
+	.printable-item {
+		display: block;
+		z-index: 0;
+		position: relative;
+		margin-bottom: 30px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.printable-item:hover:after,
+	.printable-item:hover:before,
+	.printable-item:hover .item-title {
+		opacity: 1;
+	}
+
+	.printable-item:after,
+	.printable-item:before,
+	.printable-item .item-title {
+		transition: all .3s ease-in;
+	}
+
+	.printable-item:after,
+	.printable-item:before {
+		position: absolute;
+		content: "";
+		opacity: 0;
+	}
+
+	.printable-item:after {
+		background: rgba(245, 245, 245, .9);
+		z-index: 1;
+		left: 5px;
+		right: 5px;
+		top: 5px;
+		bottom: 5px;
+	}
+
+	.printable-item:before {
+		left: 50%;
+		top: 50%;
+		width: 30px;
+		height: 4px;
+		background: #55a30f;
+		z-index: 3;
+		margin-left: -15px;
+		margin-top: -5px;
+	}
+
+	.printable-item .item-title {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 50%;
+		margin-top: 10px;
+		z-index: 2;
+		text-align: center;
+		color: #2c2c2c;
+		font-weight: 700;
+		font-size: 16px;
+		opacity: 0;
+	}
+
+}
+
+
+
+
+
+
